@@ -1,0 +1,35 @@
+{
+    "name": "pythonic-snippets",
+    "displayName": "Python Snippets",
+    "description": "A set of Python snippets for VSCode",
+    "icon": "images/python-logo.png",
+    "version": "1.0.0",
+    "engines": {
+      "vscode": "^1.35.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/vaisakh-cob/pythonic-snippets.git"
+    },
+    "author": {
+      "name": "Vaisakh Pisharody",
+      "email": "vaisakh.cob@gmail.com"
+    },
+    "categories": [
+      "Snippets"
+    ],
+    "publisher": "vaisakh96",
+    "keywords": [
+      "snippets",
+      "python"
+    ],
+    "license": "MIT",
+    "contributes": {
+      "snippets": [
+        {
+          "language": "python",
+          "path": "./snippets/python.code-snippets"
+        }
+      ]
+    }
+  }
